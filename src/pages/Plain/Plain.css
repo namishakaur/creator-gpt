@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+  .plain {
+    right: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .plain {
+    position: relative;
+    right: 1200px;
+  }
+  .plainbody {
+    position: relative;
+    top: 200px;
+  }
+  .footerplain {
+    position: relative;
+    left: 1200px;
+  }
+}

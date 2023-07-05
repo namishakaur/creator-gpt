@@ -1,0 +1,117 @@
+@media only screen and (max-width: 767px) {
+  .header {
+    align-items: center;
+    background-color: #090211;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 88px;
+    justify-content: flex-end;
+    left: 0;
+    mix-blend-mode: normal;
+    padding: 16px 20px;
+    position: fixed;
+    top: 0;
+    width: 390px;
+  }
+  .container {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .logo {
+    height: 32px;
+    min-width: 62.36px;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .ctaheader {
+    display: none;
+  }
+  .headercta::before {
+    content: url("/Users/namishakaur/byobcta/public/assets/images/menu.svg");
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    align-items: center;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    left: 0;
+    mix-blend-mode: normal;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1248px;
+  }
+  .logo {
+    height: 56px;
+    min-width: 110.35px;
+    object-fit: cover;
+    position: relative;
+    right: 30px;
+  }
+  .headercta {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    justify-content: flex-end;
+    position: relative;
+    width: fit-content;
+  }
+  .ctaheaderbutton {
+    align-items: center;
+    border: 1.5px solid;
+    border-color: transparent;
+    border-image: radial-gradient(
+        rgb(234, 142, 193),
+        rgb(37, 118, 224),
+        rgb(37, 118, 224) 100%
+      )
+      1;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 24px;
+    position: relative;
+    width: fit-content;
+  }
+  .ctaheader {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(234, 142, 193) 0%,
+      rgb(37, 118, 224) 100%,
+      rgb(37, 118, 224) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1.5px;
+    position: relative;
+    width: fit-content;
+  }
+}

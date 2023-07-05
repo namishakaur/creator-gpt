@@ -1,0 +1,278 @@
+@media only screen and (max-width: 767px) {
+  .leftcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 390px;
+    padding: 16px 20px;
+    position: relative;
+    width: 390px;
+    margin-top: 500px;
+    margin-right: 600px;
+  }
+  .textcentered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copycontainer {
+    height: 180px;
+    min-width: 350px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .title {
+    font-family: var(--montserrat);
+    font-size: 40px;
+    font-weight: 700;
+    height: 112px;
+    left: 0;
+    letter-spacing: -0.4px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 390px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(234, 142, 193) 0%,
+      rgb(37, 118, 224) 100%,
+      rgb(37, 118, 224) 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  .subtitle {
+    color: transparent;
+    font-family: var(--montserrat);
+    font-size: var(--m);
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 119px;
+    width: 390px;
+  }
+  .cta-callout {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+    width: 396px;
+    bottom: 60px;
+  }
+  .ctacalloutbutton {
+    align-items: center;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(234, 142, 193) 0%,
+      rgb(37, 118, 224) 100%,
+      rgb(37, 118, 224) 100%
+    );
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 24px;
+    position: relative;
+    width: fit-content;
+  }
+  .ctacallouttext {
+    color: #ffffff;
+    font-family: var(--montserrat);
+    font-size: var(--m);
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    line-height: normal;
+    min-height: 20px;
+    min-width: 132px;
+    position: relative;
+  }
+  .calloutdescrip {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+  }
+  .descripsub {
+    color: transparent;
+    font-family: var(--montserrat);
+    font-size: var(--xs);
+    font-weight: 400;
+    letter-spacing: -0.11px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  .descriptitle {
+    color: var(--quicksilver);
+    font-family: var(--montserrat);
+    font-size: var(--m);
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  .montserrat-medium-quick-silver-24px {
+    color: var(--quicksilver);
+    font-family: var(--montserrat);
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 500;
+  }
+  .montserrat-bold-white-24px {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .montserrat-medium-quick-silver-12px {
+    color: var(--quicksilver);
+    font-family: var(--montserrat);
+    font-size: var(--xs);
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .montserrat-bold-white-12px {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: var(--xs);
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1024px) {
+  .leftcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    padding: 8px 0px;
+    position: relative;
+    width: 612px;
+    bottom: 100px;
+  }
+  .copycontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: fit-content;
+  }
+  .title {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+    line-height: 80px;
+    margin-top: -1px;
+    position: relative;
+    width: 612px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(234, 142, 193) 0%,
+      rgb(37, 118, 224) 100%,
+      rgb(37, 118, 224) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    font-family: var(--montserrat);
+  }
+  .textcentered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subtitle {
+    color: transparent;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+    line-height: normal;
+    position: relative;
+    width: 571px;
+  }
+  .cta-callout {
+    align-items: center;
+    display: flex;
+    gap: 33px;
+    position: relative;
+    width: fit-content;
+    top: 50px;
+  }
+  .ctacalloutbutton {
+    align-items: center;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(234, 142, 193) 0%,
+      rgb(37, 118, 224) 100%,
+      rgb(37, 118, 224) 100%
+    );
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px 16px;
+    position: relative;
+    width: fit-content;
+  }
+  .ctacallouttext {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    margin-top: -1.5px;
+    position: relative;
+    width: fit-content;
+  }
+  .calloutdescrip {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: fit-content;
+  }
+  .descriptitle {
+    color: #a6a6a6;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  .descripsub {
+    color: transparent;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+}

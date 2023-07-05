@@ -1,0 +1,42 @@
+.containerdesk {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1248px;
+}
+.footerdesk {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: center;
+  margin-top: 212px;
+  mix-blend-mode: normal;
+  padding: 16px 96px;
+  position: relative;
+  width: 1440px;
+  z-index: 1;
+}
+.cta-1desk {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.cta-itemdesk {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+.social-mediadesk {
+  height: 24px;
+  min-width: 144px;
+  position: relative;
+}

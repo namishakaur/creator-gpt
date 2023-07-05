@@ -1,0 +1,243 @@
+@media only screen and (max-width: 767px) {
+  .rightcontainer {
+    display: flex;
+    height: 394px;
+    min-width: 390px;
+    bottom: 150px;
+    position: relative;
+    right: 20px;
+  }
+  .rightbody {
+    position: relative;
+    bottom: 600px;
+    right: 20px;
+  }
+  .rightcontainerhero {
+    display: flex;
+    height: 394px;
+    min-width: 390px;
+    bottom: 150px;
+    position: relative;
+    right: 980px;
+  }
+
+  .overlap-group1 {
+    height: 449px;
+    margin-top: -30.39px;
+    position: relative;
+    width: 390px;
+  }
+
+  .overlap-group {
+    height: 449px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 390px;
+  }
+
+  .rectangle-19 {
+    background-color: #2576e0;
+    filter: blur(72px);
+    height: 152px;
+    left: 53px;
+    position: absolute;
+    top: 157px;
+    width: 160px;
+  }
+
+  .ellipse-6 {
+    background-color: var(--moody-blue);
+    border-radius: 95.99px/67.83px;
+    filter: blur(72px);
+    height: 136px;
+    left: 73px;
+    position: absolute;
+    top: 88px;
+    width: 192px;
+  }
+
+  .ellipse-7 {
+    background-color: var(--moody-blue);
+    border-radius: 71.13px/78.19px;
+    filter: blur(72px);
+    height: 156px;
+    left: 170px;
+    position: absolute;
+    top: 187px;
+    width: 142px;
+  }
+
+  .polygon-1 {
+    height: 292px;
+    left: 98px;
+    position: absolute;
+    top: 0;
+    width: 267px;
+  }
+
+  .polygon-2 {
+    height: 308px;
+    left: 0;
+    position: absolute;
+    top: 142px;
+    width: 274px;
+  }
+
+  .star-1 {
+    height: 308px;
+    left: 118px;
+    position: absolute;
+    top: 129px;
+    width: 272px;
+  }
+
+  .phonemockup {
+    height: 362px;
+    left: 106px;
+    position: absolute;
+    top: 46px;
+    width: 178px;
+  }
+  .image {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 20px;
+  }
+  .leftbody {
+    position: relative;
+    bottom: 650px;
+    right: 20px;
+  }
+  .up2 {
+    position: relative;
+    bottom: 600px;
+    right: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .up1 {
+    position: relative;
+    bottom: 1050px;
+  }
+  .up2 {
+    position: relative;
+    bottom: 2000px;
+  }
+  .rightcontainer {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+    width: 612px;
+    margin-left: 200px;
+  }
+  .rightcontainerhero {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+    width: 612px;
+    margin-left: 200px;
+  }
+  .image {
+    min-width: 443px;
+    position: relative;
+  }
+
+  .overlap-group1 {
+    height: 689px;
+    left: -76px;
+    position: relative;
+    top: -24px;
+    width: 594px;
+  }
+
+  .overlap-group {
+    height: 795px;
+    left: -60px;
+    position: absolute;
+    top: -57px;
+    width: 759px;
+  }
+
+  .rectangle-19 {
+    background-color: #2576e0;
+    filter: blur(127.29px);
+    height: 268px;
+    left: 119px;
+    position: absolute;
+    top: 278px;
+    width: 283px;
+  }
+
+  .ellipse-6 {
+    background-color: #8075fb;
+    border-radius: 169.7px/119.92px;
+    filter: blur(127.29px);
+    height: 240px;
+    left: 154px;
+    position: absolute;
+    top: 155px;
+    width: 339px;
+  }
+
+  .ellipse-7 {
+    background-color: #2576e0;
+    border-radius: 125.76px/138.24px;
+    filter: blur(127.29px);
+    height: 276px;
+    left: 325px;
+    position: absolute;
+    top: 331px;
+    width: 252px;
+  }
+
+  .polygon-1 {
+    height: 516px;
+    left: 199px;
+    position: absolute;
+    top: 0;
+    width: 473px;
+  }
+
+  .polygon-2 {
+    height: 544px;
+    left: 0;
+    position: absolute;
+    top: 251px;
+    width: 511px;
+  }
+
+  .star-1 {
+    height: 545px;
+    left: 234px;
+    position: absolute;
+    top: 227px;
+    width: 525px;
+  }
+
+  .phonemockup {
+    height: 640px;
+    left: 140px;
+    object-fit: cover;
+    position: absolute;
+    top: 24px;
+    width: 315px;
+  }
+
+  .leftbody {
+    margin-left: 100px;
+  }
+  .rightbody {
+    margin-left: 850px;
+  }
+  .left {
+    position: relative;
+    left: 300px;
+  }
+}

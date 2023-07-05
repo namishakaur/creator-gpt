@@ -1,0 +1,229 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700,600");
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #090211;
+}
+@media (max-width: 767px) {
+  .landing {
+    width: 390px;
+  }
+  .footerinbound {
+    position: relative;
+    bottom: 200px;
+  }
+  .container-center {
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  .carousel {
+    position: relative;
+    bottom: 250px;
+    width: 380px;
+    left: 10px;
+  }
+
+  .container-center > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  .home {
+    align-items: flex-start;
+    background-color: var(--jaguar);
+    border: 1px none;
+    display: flex;
+    height: 1440px;
+    width: 390px;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .features {
+    height: auto;
+  }
+  .quotestitle {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 80px;
+    position: relative;
+    text-shadow: 0px 4px 4px #00000040;
+    white-space: nowrap;
+    margin-left: 20px;
+    bottom: 500px;
+  }
+  .ctabuttonbottom {
+    align-items: center;
+    display: flex;
+    top: -100px;
+    position: relative;
+    justify-content: center;
+  }
+  .getearlyaccessbutton {
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+      rgba(234, 142, 193, 0.4),
+      rgba(37, 118, 224, 0.4)
+    );
+    border-radius: 12px;
+    box-shadow: 8px 11px 55px -21px #ea8ec1;
+    padding: 10px 64px;
+    bottom: 300px;
+    position: relative;
+  }
+  .getearlyaccessbuttontext {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    margin-top: -1.5px;
+    position: relative;
+    width: fit-content;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) {
+  .quotes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 351px;
+    position: relative;
+    width: 1440px;
+    padding-top: 150px;
+  }
+  .quotestitle {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: var(--xl);
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 80px;
+    margin-top: -1px;
+    position: relative;
+    text-shadow: 0px 4px 4px #00000040;
+    white-space: nowrap;
+    width: 584px;
+  }
+  .quotescontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 351px;
+    position: relative;
+    width: 1247px;
+    justify-content: center;
+  }
+  .actualquotescontainer::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+
+  .actualquotescontainer {
+    align-items: flex-start;
+    display: flex;
+    gap: 42px;
+    height: 223.15px;
+    overflow-x: scroll;
+    position: relative;
+    width: 1247px;
+  }
+
+  .container-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+
+  .container-center > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+
+  .home {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 1440px;
+  }
+  .landing {
+    align-items: flex-start;
+    display: flex;
+    height: auto;
+    margin-top: 120px;
+    min-width: 1440px;
+    padding: 0 96px;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1248px;
+  }
+  .left {
+    right: 300px;
+  }
+  .ctabuttonbottom {
+    align-items: center;
+    display: flex;
+    height: 177px;
+    width: 1440px;
+    top: 100px;
+    position: relative;
+    justify-content: center;
+  }
+  .getearlyaccessbutton {
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+      rgba(234, 142, 193, 0.4),
+      rgba(37, 118, 224, 0.4)
+    );
+    border-radius: 12px;
+    box-shadow: 8px 11px 55px -21px #ea8ec1;
+    padding: 10px 64px;
+  }
+  .getearlyaccessbuttontext {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: var(--l);
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    margin-top: -1.5px;
+    position: relative;
+    width: fit-content;
+  }
+  .features {
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+  }
+  .bodyinfo {
+    height: auto;
+  }
+}

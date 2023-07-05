@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Montserrat:400,600");
+@media only screen and (max-width: 767px) {
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    gap: 32px;
+    height: 324px;
+    justify-content: center;
+    margin-top: 39px;
+    mix-blend-mode: normal;
+    padding: 16px 20px;
+    position: relative;
+    width: 390px;
+  }
+
+  .social-mediafooter {
+    height: 32px;
+    min-width: 200px;
+    position: relative;
+  }
+  .container-2footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 61px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .ctafooter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+  }
+
+  .creator-gptcom-all-rights-reserved {
+    letter-spacing: -0.12px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .cta-itemfooter {
+    letter-spacing: -0.12px;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+}
+@media (min-width: 1024px) {
+  .container-2footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1248px;
+  }
+  .footer {
+    align-items: center;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: auto;
+    justify-content: center;
+    margin-top: 412px;
+    mix-blend-mode: normal;
+    padding: 16px 96px;
+    position: relative;
+    width: 1440px;
+    z-index: 1;
+  }
+
+  .cta-1 {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .cta-itemfooter {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .social-mediafooter {
+    height: 24px;
+    min-width: 144px;
+    position: relative;
+  }
+}

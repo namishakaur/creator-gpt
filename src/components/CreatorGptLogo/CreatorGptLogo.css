@@ -1,0 +1,120 @@
+@media (max-width: 767px) {
+  .creator-gpt-logo {
+    height: 28.86px;
+    min-width: 135px;
+    position: relative;
+    background-color: #090211;
+  }
+
+  .creator-gpt-container {
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 135px;
+  }
+
+  .creator-gpt {
+    -webkit-text-stroke: 0.29px var(--black);
+    left: 0;
+    letter-spacing: 0;
+    line-height: 3.4px;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    white-space: nowrap;
+  }
+
+  .creator-gpt-1 {
+    -webkit-text-stroke: 0.29px var(--licorice);
+    left: 0;
+    letter-spacing: 0;
+    line-height: 3.4px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+
+  .the-ai-co-pilot-you {
+    height: 6px;
+    left: 19px;
+    letter-spacing: -0.1px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    white-space: nowrap;
+    font-family: var(--montserrat);
+    font-size: 5px;
+    color: var(--white);
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@media (min-width: 1024px) {
+  .creator-gpt-logo {
+    height: 53px;
+    min-width: 247.93px;
+    position: relative;
+  }
+
+  .creator-gpt-container {
+    height: 8px;
+    left: -1px;
+    position: absolute;
+    top: 10px;
+    width: 248px;
+  }
+
+  .creator-gpt {
+    -webkit-text-stroke: 0.53px var(--black);
+    color: var(--moodyblue);
+    font-family: var(--poppins);
+    font-size: var(--xl);
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 6.2px;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    white-space: nowrap;
+  }
+
+  .creator-gpt-1 {
+    -webkit-text-stroke: 0.53px var(--licorice);
+    color: var(--white);
+    font-family: var(--poppins);
+    font-size: var(--xl);
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 6.2px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+
+  .the-ai-co-pilot-you {
+    color: transparent;
+    font-family: var(--montserrat);
+    font-size: 9.2px;
+    font-weight: 400;
+    height: 11px;
+    left: 35px;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 42px;
+    white-space: nowrap;
+  }
+  .montserrat-normal-white-5px {
+    font-size: 9.2px;
+  }
+  .montserrat-normal-moody-blue-5px {
+    font-size: 9.2px;
+  }
+}

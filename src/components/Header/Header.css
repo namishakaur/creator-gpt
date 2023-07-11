@@ -34,7 +34,7 @@
     display: none;
   }
   .headercta::before {
-    content: url("/Users/namishakaur/byobcta/public/assets/images/menu.svg");
+    content: url("/public/assets/images/menu.svg");
     height: 32px;
     min-width: 32px;
     position: relative;

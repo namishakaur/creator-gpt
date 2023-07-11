@@ -1,10 +1,10 @@
-import "/Users/namishakaur/byobcta/src/styleguide.css";
 import "./CTAV1.css";
-import Header from "/Users/namishakaur/byobcta/src/components/Header/Header.jsx";
-import Body from "/Users/namishakaur/byobcta/src/components/Body/Body.jsx";
-import RightContainer from "/Users/namishakaur/byobcta/src/components/RightContainer/RightContainer.jsx";
-import BodyContent from "/Users/namishakaur/byobcta/src/components/BodyContent/BodyContent.jsx";
-import Testimonials from "/Users/namishakaur/byobcta/src/components/Testimonials/Testimonials.jsx";
+import "../../styleguide.css";
+import Header from "../../components/Header/Header";
+import Body from "../../components/Body/Body";
+import RightContainer from "../../components/RightContainer/RightContainer";
+import BodyContent from "../../components/BodyContent/BodyContent";
+import Testimonials from "../../components/Testimonials/Testimonials";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Footer from "../../components/Footer/Footer";

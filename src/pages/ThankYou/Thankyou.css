@@ -4,7 +4,7 @@
   display: contents;
   text-decoration: none;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .tycontainer-center-horizontal {
     display: flex;
     flex-direction: row;

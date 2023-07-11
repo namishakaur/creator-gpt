@@ -10,7 +10,7 @@
 body {
   background-color: #090211;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .landing {
     width: 390px;
   }
@@ -94,6 +94,10 @@ body {
     margin-top: -1.5px;
     position: relative;
     width: fit-content;
+  }
+  .bodytext {
+    position: relative;
+    right: -10px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {

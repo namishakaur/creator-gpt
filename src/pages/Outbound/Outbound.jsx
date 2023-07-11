@@ -16,7 +16,7 @@ const Outbound = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.matchMedia("(max-width: 767px)").matches);
+      setIsMobile(window.matchMedia("(max-width: 1024px)").matches);
     };
 
     handleResize();
@@ -88,7 +88,9 @@ const Outbound = () => {
           <Header {...logoprops} />
           <div className="landing">
             <div className="container">
-              <Body {...hero} />
+              <div className="bodytext">
+                <Body {...hero} />
+              </div>
               <RightContainer
                 imgsrc="../assets/images/herophone.png"
                 classname="rightcontainerhero"

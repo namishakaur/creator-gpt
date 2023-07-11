@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .formactual {
     position: relative;
     top: 250px;
@@ -348,6 +348,9 @@
 }
 
 @media (min-width: 1024px) {
+  .tallyform {
+    width: 100%;
+  }
   .formactual {
     right: 50px;
     position: relative;

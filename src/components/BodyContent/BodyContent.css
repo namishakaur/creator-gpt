@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .bodycontainer {
     align-items: flex-start;
     display: flex;
@@ -75,17 +75,23 @@
   .right1 {
     position: relative;
     bottom: 650px;
-    left: 60px;
+    left: 20px;
   }
   .mvleft {
     position: relative;
     bottom: 620px;
-    left: 60px;
+    left: 20px;
+    justify-content: center÷;
   }
   .right2 {
     position: relative;
     bottom: 590px;
-    left: 60px;
+    left: 30px;
+  }
+  .bodyinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media (min-width: 1024px) {

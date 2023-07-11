@@ -16,7 +16,7 @@ const CTAV1 = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.matchMedia("(max-width: 767px)").matches);
+      setIsMobile(window.matchMedia("(max-width: 1024px)").matches);
     };
 
     handleResize();

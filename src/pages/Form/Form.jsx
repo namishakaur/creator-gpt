@@ -10,13 +10,14 @@ import { Link } from "react-router-dom";
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
-
 const Form = () => {
+  // useExternalScripts("https://tally.so/widgets/embed.js");
+
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.matchMedia("(max-width: 767px)").matches);
+      setIsMobile(window.matchMedia("(max-width: 1024px)").matches);
     };
 
     handleResize();
@@ -39,9 +40,7 @@ const Form = () => {
                     Are you ready to put your outreach on{" "}
                   </span>
                   <span className="montserrat-bold-white-24px-">autopilot</span>
-                  <span className="montserrat-medium-quick-silver-24px-">
-                    ?
-                  </span>
+                  <span className="montserrat-medium-quick-silver-24px-"></span>
                 </span>
               </p>
             </div>
@@ -123,6 +122,7 @@ const Form = () => {
                   </span>
                 </p>
               </div>
+
               <Link to="/stripe">
                 <div className="flex-col-1">
                   <div className="yes montserrat-medium-white-20px">Yes</div>

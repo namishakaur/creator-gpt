@@ -8,6 +8,7 @@ import Outbound from "./pages/Outbound/Outbound";
 
 import ReactGA from "react-ga";
 import FormStripe from "./pages/Form/FormStripe";
+import TallyForm from "./pages/Form/TallyFor";
 const TRACKING_ID = "G-VT4GYETHCK";
 
 ReactGA.initialize(TRACKING_ID);
@@ -21,7 +22,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact Component={CTAV1} />
-        <Route path="/getstarted" exact Component={Form} />
+        <Route path="/getstarted" exact Component={TallyForm} />
         <Route path="/thankyou" exact Component={Thankyou} />
         <Route path="/outbound" exact Component={Outbound} />
         <Route path="/stripe" exact Component={FormStripe} />

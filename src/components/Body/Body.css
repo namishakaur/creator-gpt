@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .leftcontainer {
     align-items: flex-start;
     display: flex;
@@ -10,6 +10,7 @@
     width: 390px;
     margin-top: 500px;
     margin-right: 600px;
+    right: 30px;
   }
   .textcentered {
     display: flex;
@@ -33,7 +34,7 @@
     line-height: 40px;
     position: absolute;
     text-align: center;
-    top: -1px;
+    top: 10px;
     width: 390px;
     background: radial-gradient(
       50% 50% at 50% 50%,
@@ -54,7 +55,7 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 119px;
+    top: 150px;
     width: 390px;
   }
   .cta-callout {
@@ -65,7 +66,7 @@
     justify-content: center;
     position: relative;
     width: 396px;
-    bottom: 60px;
+    bottom: 20px;
   }
   .ctacalloutbutton {
     align-items: center;

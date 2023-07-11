@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 1248px;
+  width: 100%;
 }
 .footerdesk {
   align-items: center;

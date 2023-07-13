@@ -1,7 +1,8 @@
 @media only screen and (max-width: 1024px) {
   .header {
     align-items: center;
-    background-color: #090211;
+    background: rgba(9, 2, 17, 0.6);
+    backdrop-filter: blur(9px);
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -14,6 +15,8 @@
     top: 0;
     width: 100%;
     z-index: 3;
+  }
+  .active {
   }
   .container {
     align-items: center;
@@ -30,21 +33,66 @@
     position: relative;
   }
 
-  .ctaheader {
+  /* .ctaheader {
     display: none;
-  }
-  .headercta::before {
+  } */
+  /* .headercta::before {
     content: url("/public/assets/images/menu.svg");
     height: 32px;
     min-width: 32px;
     position: relative;
     right: 30px;
+  } */
+  .ctaheaderbutton {
+    align-items: center;
+    border: 1.5px solid;
+    border-color: transparent;
+
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 0vw;
+    padding: 5px 10px;
+    position: relative;
+    width: fit-content;
+    border-radius: 10px;
+    border-image: radial-gradient(
+        rgb(234, 142, 193),
+        rgb(37, 118, 224),
+        rgb(37, 118, 224) 100%
+      )
+      1;
+  }
+  .ctaheader {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(234, 142, 193) 0%,
+      rgb(37, 118, 224) 100%,
+      rgb(37, 118, 224) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1.5px;
+    position: relative;
+    width: fit-content;
   }
 }
 @media (min-width: 1024px) {
+  .active {
+  }
   .header {
     align-items: center;
-    background-color: #090211;
+    background: rgba(9, 2, 17, 0.6);
+    backdrop-filter: blur(9px);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -84,12 +132,7 @@
     align-items: center;
     border: 1.5px solid;
     border-color: transparent;
-    border-image: radial-gradient(
-        rgb(234, 142, 193),
-        rgb(37, 118, 224),
-        rgb(37, 118, 224) 100%
-      )
-      1;
+
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -98,7 +141,15 @@
     padding: 12px 24px;
     position: relative;
     width: fit-content;
+    border-radius: 10px;
+    border-image: radial-gradient(
+        rgb(234, 142, 193),
+        rgb(37, 118, 224),
+        rgb(37, 118, 224) 100%
+      )
+      1;
   }
+
   .ctaheader {
     background: radial-gradient(
       50% 50% at 50% 50%,

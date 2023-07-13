@@ -102,18 +102,18 @@ const Outbound = () => {
       <div className="bodyinfo">
         <div className="features">
           <RightContainer
-            imgsrc="../assets/images/bodyimg1.png"
+            imgsrc="../assets/images/bodycontent1.png"
             classname="leftbody"
           />
           <BodyContent {...bodycontent1} />
 
           <RightContainer
-            imgsrc="../assets/images/bodyimg2.png"
+            imgsrc="../assets/images/bodycontent2.png"
             classname="rightbody up1"
           />
           <BodyContent {...bodycontent2} />
           <RightContainer
-            imgsrc="../assets/images/bodyimg3.png"
+            imgsrc="../assets/images/bodycontent3.png"
             classname="leftbody up2"
           />
           <BodyContent {...bodycontent3} />

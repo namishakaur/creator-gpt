@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/Footer";
 import React, { useEffect, useState } from "react";
 import FooterDesk from "../../components/FooterDesk/FooterDesk";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
 const CTAV1 = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -54,22 +55,26 @@ const CTAV1 = () => {
   };
   const testimonial1 = {
     quote: '"I spend about an hour a day on managing emails and brand deals"',
-    person: "Terri",
-    personstitle: "Person's Title",
+    person: "Terry",
+    personstitle: "Travel and Automotive",
     classname: "testimonial1",
+    profilesrc: "../assets/images/terry.jpeg",
   };
   const testimonial2 = {
-    quote: '"I spend about an hour a day on managing emails and brand deals"',
-    person: "Allie",
-    personstitle: "Person's Title",
+    quote:
+      "“I don’t check my inbox enough, the campaign will be over by time I check… I respond the same way to almost every email”",
+    person: "Alli",
+    personstitle: "Beauty and Fashion",
     classname: "testimonial2",
+    profilesrc: "../assets/images/alli.jpeg",
   };
   const testimonial3 = {
     quote:
       "“9/10 brand deals come in through email… 15% of my time is spent on mgmt”",
     person: "Sam",
-    personstitle: "Person's Title",
+    personstitle: "Fitness and Comedy",
     classname: "testimonial3",
+    profilesrc: "../assets/images/sam.jpeg",
   };
   const hero = {
     title: "Your AI Email Manager",
@@ -103,18 +108,19 @@ const CTAV1 = () => {
       <div className="bodyinfo">
         <div className="features">
           <RightContainer
-            imgsrc="../assets/images/bodyimg1.png"
+            imgsrc="../assets/images/bodycontent1.png"
             classname="leftbody"
           />
-          <BodyContent {...bodycontent1} />
-
+          <div className="bodycontent1">
+            <BodyContent {...bodycontent1} />
+          </div>
           <RightContainer
-            imgsrc="../assets/images/bodyimg2.png"
+            imgsrc="../assets/images/bodycontent2.png"
             classname="rightbody up1"
           />
           <BodyContent {...bodycontent2} />
           <RightContainer
-            imgsrc="../assets/images/bodyimg3.png"
+            imgsrc="../assets/images/bodycontent3.png"
             classname="leftbody up2"
           />
           <BodyContent {...bodycontent3} />
@@ -128,11 +134,19 @@ const CTAV1 = () => {
 
               {isMobile ? (
                 <div className="carousel">
+                  {/* <Slider
+                    dots={true}
+                    infinite={true}
+                    speed={500}
+                    slidesToShow={1}
+                    slidesToScroll={1}
+                  > */}
                   <Carousel width={390} showStatus={false} showArrows={false}>
                     <Testimonials {...testimonial1} />
                     <Testimonials {...testimonial2} />
                     <Testimonials {...testimonial3} />
                   </Carousel>
+                  {/* </Slider> */}
                 </div>
               ) : (
                 <div className="actualquotescontainer">

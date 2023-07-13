@@ -9,8 +9,8 @@
   }
   .rightbody {
     position: relative;
-    bottom: 600px;
-    right: 40px;
+    bottom: 560px;
+    right: 18px;
   }
   .rightcontainerhero {
     display: flex;
@@ -108,13 +108,13 @@
   }
   .leftbody {
     position: relative;
-    bottom: 650px;
-    right: 20px;
+    bottom: 720px;
+    right: 19px;
   }
   .up2 {
     position: relative;
-    bottom: 600px;
-    right: 20px;
+    bottom: 390px;
+    right: 19px;
   }
 }
 @media (min-width: 1024px) {
@@ -142,7 +142,7 @@
     justify-content: center;
     position: relative;
     width: 612px;
-    margin-left: 200px;
+    right: 33%;
   }
   .image {
     min-width: 443px;
@@ -231,10 +231,10 @@
   }
 
   .leftbody {
-    margin-left: 100px;
+    margin-left: 10vw;
   }
   .rightbody {
-    margin-left: 850px;
+    margin-left: 70vw;
   }
   .left {
     position: relative;

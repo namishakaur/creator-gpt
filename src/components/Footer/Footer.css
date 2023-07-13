@@ -54,6 +54,12 @@
     position: relative;
     width: fit-content;
   }
+  .montserrat-semi-bold-quick-silver-12px {
+    color: var(--quicksilver);
+    font-family: var(--montserrat);
+    font-size: 12px;
+    font-weight: 600;
+  }
 }
 @media (min-width: 1024px) {
   .container-2footer {

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.a3d57586.css",
-    "main.js": "/my-app/static/js/main.910afe31.js",
-    "static/media/map.png": "/my-app/static/media/map.3afebc557bc5553c364e.png",
-    "static/media/location.svg": "/my-app/static/media/location.35cd5b98cf49e6a7d885.svg",
-    "index.html": "/my-app/index.html",
-    "main.a3d57586.css.map": "/my-app/static/css/main.a3d57586.css.map",
-    "main.910afe31.js.map": "/my-app/static/js/main.910afe31.js.map"
+    "main.css": "/creator-gpt/static/css/main.70974ea1.css",
+    "main.js": "/creator-gpt/static/js/main.910afe31.js",
+    "static/media/map.png": "/creator-gpt/static/media/map.3afebc557bc5553c364e.png",
+    "static/media/location.svg": "/creator-gpt/static/media/location.35cd5b98cf49e6a7d885.svg",
+    "index.html": "/creator-gpt/index.html",
+    "main.70974ea1.css.map": "/creator-gpt/static/css/main.70974ea1.css.map",
+    "main.910afe31.js.map": "/creator-gpt/static/js/main.910afe31.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d57586.css",
+    "static/css/main.70974ea1.css",
     "static/js/main.910afe31.js"
   ]
 }

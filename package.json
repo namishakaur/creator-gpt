@@ -1,7 +1,7 @@
 {
   "name": "byobcta",
   "version": "0.1.0",
-  "homepage": "https://namishakaur.github.io/creator-gpt/",
+  "homepage": "https://namishakaur.github.io/creator-gpt",
   "private": true,
   "dependencies": {
     "@react-navigation/native-stack": "^6.9.13",
